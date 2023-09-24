@@ -1,4 +1,4 @@
-<div class="container-fluid" style="padding-top: 1rem;">
+<div class="container-fluid" id="content" style="padding-top: 1rem;">
   <div class="row justify-content-between">
     <div class="col-4 centered">
       <h1>MIS CATEGORÍAS</h1>
@@ -18,8 +18,12 @@
         <div class="card mx-auto">
           <div class="card-body">
             <div class="card-header-container">
-              <h4 class="card-title">{{item.nombre}}</h4>
-              <img src="/assets/icons/detail.png" id="detail-btn">
+              <div class="left-content">
+                <h4 class="card-title">{{item.nombre}}</h4>
+              </div>
+              <div class="right-content">
+                <img src="/assets/icons/detail.png" id="detail-btn">
+              </div>
             </div>
             <h5 *ngIf="item.creador !== ''">Creada por: {{item.creador}}</h5>
             <h5 *ngIf="item.creador === ''"></h5>
