@@ -28,13 +28,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 90px;
+    gap: 0px;
 }
 
 .cards {
     margin-top: 20px;
-    margin-left: 270px;
-    margin-right: 270px;
+    margin-left: 290px;
+    margin-right: 290px;
 }
 
 .card {
@@ -81,3 +81,10 @@
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+.card-title {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
