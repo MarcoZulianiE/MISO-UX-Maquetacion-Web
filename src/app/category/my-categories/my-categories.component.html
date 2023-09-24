@@ -24,11 +24,16 @@
             <h5 *ngIf="item.creador !== ''">Creada por: {{item.creador}}</h5>
             <h5 *ngIf="item.creador === ''"></h5>
           </div>
-          <div>
+          <div (click)="showYesNoPanel()">
             <img src="{{item.imagen}}" class="card-image img-fluid" alt="On Time Logo">
           </div>
         </div>
       </div>
     </div>
   </div>
+  <app-yes-no-panel
+    *ngIf="isPanelVisible"
+    (yesClick)="onYesClick()"
+    (noClick)="onNoClick()">
+  </app-yes-no-panel>
 </div>
