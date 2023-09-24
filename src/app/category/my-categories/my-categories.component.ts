@@ -10,10 +10,8 @@ import { dataCategories } from '../dataCategories';
 export class MyCategoriesComponent implements OnInit {
 
   categories: Array<Category> = [];
-  getCategoriesList(): Array<Category> {
-    return dataCategories;
-  }
-
+  isPanelVisible = false;
+ 
   constructor() { }
 
   ngOnInit() {
@@ -21,4 +19,19 @@ export class MyCategoriesComponent implements OnInit {
     console.log(this.categories);
   }
 
+  getCategoriesList(): Array<Category> {
+    return dataCategories;
+  }
+
+  showYesNoPanel() {
+    this.isPanelVisible = true;
+  }
+
+  onYesClick() {
+    this.isPanelVisible = false;
+  }
+
+  onNoClick() {
+    this.isPanelVisible = false;
+  }
 }
