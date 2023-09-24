@@ -16,7 +16,6 @@ export class MyCategoriesComponent implements OnInit {
 
   ngOnInit() {
     this.categories = this.getCategoriesList();
-    console.log(this.categories);
   }
 
   getCategoriesList(): Array<Category> {
