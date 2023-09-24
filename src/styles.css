@@ -1,1 +1,93 @@
-/* You can add global styles to this file, and also import other style files */
+/* @font-face {
+    font-family: 'Quicksand-Light';
+    src: url('assets/fonts/Quicksand/Quicksand-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Quicksand-Regular';
+    src: url('assets/fonts/Quicksand/Quicksand-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Quicksand-Medium';
+    src: url('assets/fonts/Quicksand/Quicksand-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Quicksand-SemiBold';
+    src: url('assets/fonts/Quicksand/Quicksand-SemiBold.ttf');
+} */
+
+@font-face {
+    font-family: 'Quicksand-Bold';
+    src: url('assets/fonts/Quicksand/Quicksand-Bold.ttf');
+}
+
+/* Add the Quicksand Font */
+@font-face {
+    font-family: 'Quicksand';
+    src: url('assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf');
+}
+
+body {
+    background-color: #43519A !important;
+    font-family: 'Quicksand';
+}
+
+a {
+    font-weight: bold;
+
+}
+
+
+/* For the Background Pattern */
+body::before {
+    content: "";
+    background: url("./assets/icons/backgroundPattern.svg");
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.01;
+    background-size: 600px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 36 !important;
+    background-image: linear-gradient(180deg, #1EFBA0, #27B4FA);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    letter-spacing: 1.25px;
+    margin: 0;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 24 !important;
+    letter-spacing: 1.25px;
+    text-align: left;
+    margin: 0;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 20 !important;
+    letter-spacing: 0.15px;
+    text-align: left;
+    margin: 0 !important;
+    display: inline-block;
+    color: #1EFBA0 !important;
+}
+
+h5 {
+    font-weight: medium;
+    font-size: 13px !important;
+    text-align: left;
+    margin: 0;
+    display: inline-block;
+    color: #A3E5D9 !important;
+}
