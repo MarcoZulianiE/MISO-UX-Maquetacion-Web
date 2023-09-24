@@ -1,0 +1,34 @@
+<div class="container-fluid" style="padding-top: 1rem;">
+  <div class="row justify-content-between">
+    <div class="col-4 centered">
+      <h1>MIS CATEGORÍAS</h1>
+    </div>
+    <div class="col-4 centered">
+      <div class="row align-items-center">
+        <div class="image-text-container">
+          <img src="/assets/icons/cloud.png" id="logo" alt="On Time Logo">
+          <h3>IMPORTAR</h3>
+        </div>
+      </div> 
+    </div>
+  </div>
+  <div class="cards">
+    <div class="row">
+      <div class="col-3" *ngFor="let item of categories">
+        <div class="card mx-auto">
+          <div class="card-body">
+            <div class="card-header-container">
+              <h4 class="card-title">Estudio</h4>
+              <img src="/assets/icons/detail.png" id="detail-btn">
+            </div>
+            <h5 *ngIf="item.creador !== ''">Creada por: {{item.creador}}</h5>
+            <h5 *ngIf="item.creador === ''"></h5>
+          </div>
+          <div>
+            <img src="{{item.imagen}}" class="card-image img-fluid" alt="On Time Logo">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
