@@ -1,0 +1,143 @@
+#content {
+    padding-top: 10rem !important;
+}
+
+.container {
+    display: flex;
+    background-color: transparent;
+    flex-direction: row;
+}
+
+.left {
+    background-color: transparent;
+    width: 50%;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 50px;
+}
+
+.right {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra verticalmente los elementos */
+    width: 50%;
+    padding-top: 0px;
+    padding-left: 50px;
+    padding-right: 0px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo para las etiquetas (labels) */
+.custom-label {
+    font-family: "Quicksand", sans-serif;
+    /* Fuente Quicksand */
+    font-size: 38pt;
+    /* Tamaño de fuente 38 puntos */
+    font-weight: 600;
+    /* Negrita (semibold) */
+    color: black;
+    /* Color de texto negro */
+    padding-top: 30px;
+}
+
+.custom-label-upload-button {
+    font-family: "Quicksand", sans-serif;
+    /* Fuente Quicksand */
+    color: #1b1d24;
+    font-size: 13pt;
+    /* Tamaño de fuente 38 puntos */
+    font-weight: 600;
+    /* Negrita (semibold) */
+    background-color: transparent;
+    /* Fondo transparente */
+    border: 2px solid #a3e5d9;
+    /* Borde rojo */
+    border-radius: 4px;
+    /* Borde redondeado */
+    padding: 10px;
+    /* Espacio interno para que el texto no toque el borde */
+    width: fit-content;
+    /* Ancho del campo de texto al 100% del contenedor */
+}
+
+/* Estilo para los campos de texto y el campo de archivo (inputs) */
+.custom-input {
+    font-family: "Quicksand", sans-serif;
+    /* Fuente Quicksand */
+    color: #1b1d24;
+    font-size: 13pt;
+    /* Tamaño de fuente 38 puntos */
+    font-weight: 600;
+    /* Negrita (semibold) */
+    background-color: transparent;
+    /* Fondo transparente */
+    border: 2px solid #a3e5d9;
+    /* Borde rojo */
+    border-radius: 4px;
+    /* Borde redondeado */
+    padding: 10px;
+    /* Espacio interno para que el texto no toque el borde */
+    width: 100%;
+    /* Ancho del campo de texto al 100% del contenedor */
+}
+
+/* Estilo para el contenedor de la etiqueta y el botón de carga de imagen */
+.image-upload {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo para el botón de carga de imagen */
+.upload-button {
+    margin-left: 10px;
+    /* Separación a la izquierda del botón */
+    cursor: pointer;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 250px;
+    text-align: center;
+    background-color: #042338;
+  }
+  
+  .time {
+    font-family: "QuickSand", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #A3E5D9;
+  }
+  
+  .days {
+    margin-top: 10px;
+    font-size: 16px;
+    background: linear-gradient(to right, #1EFBA0, #22DACA, #27B4FA);
+    color: transparent; /* Hace que el color de texto sea transparente */
+    -webkit-background-clip: text; /* Para navegadores basados en Webkit (como Safari) */
+    background-clip: text;
+  }
+  
+  hr {
+    border: none; /* Elimina cualquier borde predeterminado del navegador */
+    border-top: 1px solid #A3E5D9;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: content-box; /* Asegura que el ancho se aplique correctamente */
+  }
+  
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #27B4FA;
+  }
+  

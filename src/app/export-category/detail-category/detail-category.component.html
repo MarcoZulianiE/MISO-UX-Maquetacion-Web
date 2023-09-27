@@ -1,0 +1,92 @@
+<div class="container-fluid" id="content" style="padding-top: 1rem">
+  <div class="row justify-content-between">
+    <div class="col-4 centered">
+      <h1>DETALLE CATEGORIA</h1>
+    </div>
+    <div class="col-4 centered">
+      <div class="row align-items-center">
+        <a class="image-text-container" [routerLink]="['']">
+          <img src="/assets/icons/cloud.png" id="logo" alt="On Time Logo" />
+          <h3>EXPORTAR</h3>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="left">
+      <form>
+        <!-- Nombre -->
+        <label for="nombre" class="custom-label">Nombre:</label><br />
+        <input
+          type="text"
+          id="nombre"
+          name="nombre"
+          placeholder="Escriba el nombre de la categoría"
+          class="custom-input"
+        /><br />
+
+        <!-- Descripción -->
+        <label for="descripcion" class="custom-label">Descripción:</label><br />
+        <input
+          type="text"
+          id="descripcion"
+          name="descripcion"
+          placeholder="Escriba la descripción de la categoría"
+          class="custom-input"
+        /><br />
+
+        <!-- Imagen -->
+        <!-- Link de la imagen -->
+        <label for="imagen" class="custom-label">Imagen:</label>
+        <div class="image-upload">
+          <input
+            type="text"
+            id="imagen"
+            name="imagen"
+            placeholder="Link de la imagen"
+            class="custom-input"
+          />
+          <!-- Botón para adjuntar imagen -->
+          <label for="fileInput" class="custom-label-upload-button">Adjuntar</label>
+          <input
+            type="file"
+            id="fileInput"
+            name="fileInput"
+            accept="image/*"
+            style="display: none;"
+          />
+        </div>
+        <br />
+
+      </form>
+    </div>
+    <div class="right">
+      <label for="descripcion" class="custom-label">Alarmas</label><br />
+      <div class="alarms" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
+        <div class="card">
+          <div class="time">11:00</div>
+          <div class="days">Lunes, Miércoles, Viernes</div>
+          <hr />
+          <div class="title">DESPERTARSE</div>
+        </div>
+        <div class="card">
+          <div class="time">11:00</div>
+          <div class="days">Lunes, Miércoles, Viernes</div>
+          <hr />
+          <div class="title">DESPERTARSE</div>
+        </div>
+        <div class="card">
+          <div class="time">11:00</div>
+          <div class="days">Lunes, Miércoles, Viernes</div>
+          <hr />
+          <div class="title">DESPERTARSE</div>
+        </div>
+        <div class="card">
+          <div class="time">11:00</div>
+          <div class="days">Lunes, Miércoles, Viernes</div>
+          <hr />
+          <div class="title">DESPERTARSE</div>
+      </div>
+    </div>
+  </div>
+</div>
