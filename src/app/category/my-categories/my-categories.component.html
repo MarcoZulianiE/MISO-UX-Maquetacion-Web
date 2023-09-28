@@ -22,7 +22,7 @@
                 <h4 class="card-title">{{item.nombre}}</h4>
               </div>
               <div class="right-content">
-                <img src="/assets/icons/detail.png" id="detail-btn">
+                <img src="/assets/icons/detail.png" [routerLink]="['/detailCategory']" id="detail-btn">
               </div>
             </div>
             <h5 *ngIf="item.creador !== ''">Creada por: {{item.creador}}</h5>

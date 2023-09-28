@@ -141,3 +141,14 @@ form {
     color: #27B4FA;
   }
   
+.image-text-container {
+    color: #1EFBA0 !important;
+    text-decoration: none;
+    display: flex;
+    width: 418px;
+    height: 54px;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    flex-shrink: 0;
+}

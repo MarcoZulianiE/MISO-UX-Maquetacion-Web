@@ -9,7 +9,6 @@ const routes: Routes = [
   { path: '', component: MyCategoriesComponent },
   { path: 'packages/import', component: ImportPackagesComponent },
   { path: 'detailCategory', component: DetailCategoryComponent },
-  { path: 'detailCategory', component: DetailCategoryComponent },
   { path: 'detailPackage', component: DetailPackageComponent } 
 ];
 
