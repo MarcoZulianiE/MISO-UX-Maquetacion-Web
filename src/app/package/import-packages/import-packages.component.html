@@ -5,12 +5,12 @@
   <div class="cards">
     <div class="row">
       <div class="col-3" *ngFor="let item of packages">
-        <div class="card mx-auto" [routerLink]="['/detailPackage']">
+        <div class="card mx-auto">
           <div class="card-body">
             <div class="card-header-container">
               <div class="left-content">
-                <h4 class="card-title">{{item.nombre}}</h4>
-                <h5 *ngIf="item.creador !== ''">Creada por: {{item.creador}}</h5>
+                <h4 class="card-title" [routerLink]="['/detailPackage']">{{item.nombre}}</h4>
+                <h5 *ngIf="item.creador !== ''" [routerLink]="['/detailPackage']">Creada por: {{item.creador}}</h5>
                 <h5 *ngIf="item.creador === ''"></h5>
               </div>
               <div class="right-content">
@@ -21,8 +21,8 @@
               </div>
             </div>
           </div>
-          <img src="{{item.imagen}}" class="card-image img-fluid" alt="On Time Logo">
-          <p class="description">{{item.descripcion.split(' ').slice(0, 4).join(' ')}} ...</p>
+          <img src="{{item.imagen}}" class="card-image img-fluid" alt="On Time Logo" [routerLink]="['/detailPackage']">
+          <p class="description" [routerLink]="['/detailPackage']">{{item.descripcion.split(' ').slice(0, 4).join(' ')}} ...</p>
         </div>
       </div>
     </div>
