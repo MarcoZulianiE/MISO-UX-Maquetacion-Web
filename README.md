@@ -17,7 +17,7 @@ Web layout developed as part of the project for the course "UX mejoramiento de l
 - [Journey Map](https://drive.google.com/file/d/1b9rHXNwu72LfCFByAU9GsZZbhCRsiVEe/view?usp=sharing)
 
 - [UX Research Findings](https://drive.google.com/file/d/1OgFGGYk2l0FwFBPD_9wNbRhNCTv-2QMT/view?usp=sharing)
-- 
+  
 - [MVP](https://drive.google.com/file/d/1IeB0Y7SFtSIttt5tYpJNmZNU5k59pGtY/view?usp=sharing)
 
 - [Paper Prototype Testing](https://youtu.be/TqFEu0VZ8TM)
