@@ -12,11 +12,13 @@ Web layout developed as part of the project for the course "UX mejoramiento de l
 
 ## UX documents
 
-- [User Persona.pdf](https://github.com/poloivaz/MISO-UX-Maquetacion-Web/files/12850720/User.Persona.pdf)
+- [User Persona](https://drive.google.com/file/d/1XL0c3xiWW6zFxjsBTZjgRNm-UqACKoE5/view?usp=sharing)
 
-- [Journey Map.pdf](https://github.com/poloivaz/MISO-UX-Maquetacion-Web/files/12850719/Journey.Map.pdf)
+- [Journey Map](https://drive.google.com/file/d/1b9rHXNwu72LfCFByAU9GsZZbhCRsiVEe/view?usp=sharing)
 
-- [UX Research Findings.pdf](https://github.com/poloivaz/MISO-UX-Maquetacion-Web/files/12850725/UX.Research.Findings.pdf)
+- [UX Research Findings](https://drive.google.com/file/d/1OgFGGYk2l0FwFBPD_9wNbRhNCTv-2QMT/view?usp=sharing)
+- 
+- [MVP](https://drive.google.com/file/d/1IeB0Y7SFtSIttt5tYpJNmZNU5k59pGtY/view?usp=sharing)
 
 - [Paper Prototype Testing](https://youtu.be/TqFEu0VZ8TM)
 
